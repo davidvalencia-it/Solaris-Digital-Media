@@ -7,8 +7,8 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <title>Fable - Coffee Site Template</title>
-    
+    <title>Solaris Photobooth</title>
+
     <!-- Loading Bootstrap -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
@@ -16,412 +16,219 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/style-magnific-popup.css" rel="stylesheet">
-    
+    <link href="css/Price.css" rel="stylesheet">
+    <link href="css/cards.css" rel="stylesheet">
+    <link rel="stylesheet" href="Price.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
     <!-- Fonts -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/icons-main.css" rel="stylesheet">
     <link href="css/icons-helper.css" rel="stylesheet">
-    
+
     <!-- RS5.0 Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-     
+
     <!-- RS5.0 Layers and Navigation Styles -->
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">	
-    
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+
+
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Font Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/Icons/Tab.png">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-    
+
     <!--headerIncludes-->
-    
+
 </head>
+
 <body>
-    
+
+    <!--begin loader -->
+    <div id="loader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--end loader -->
+
     <!--begin header -->
     <header class="header">
 
         <!--begin nav -->
         <nav class="navbar navbar-default navbar-fixed-top">
-            
+
             <!--begin container -->
             <div class="container">
-        
+
                 <!--begin navbar -->
                 <div class="navbar-header">
-                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle"
+                        type="button">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                                                                        
-                    <a href="index.html" class="navbar-brand brand scrool"><img src="images/logo.png" alt="logo"></a>
+
+                    <a href="index.html" class="navbar-brand brand scrool"><img src="images/Icons/Header_Icon.png"
+                            alt="logo" class="width-100" style="height: 120px; width: auto; margin-top: -30px;"></a>
                 </div>
-                        
+
                 <div id="navbar-collapse-02" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">			      
+                    <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#discover">Services</a></li>
+                        <li><a href="index.html#packages">Packages</a></li>
                         <li class="selected"><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        
-                        <li class="social"><a href="#" class="first"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social"><a href="#" class="last"><i class="fa fa-instagram"></i></a></li>
-                        
-                        <li><a href="#" class="purchase">Purchase</a></li>
+                        <!-- <li><a href="#reservations">Contact</a></li> -->
+
+                        <!-- <li class="social"><a href="#" class="first"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social"><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                        <li class="social"><a href="https://www.instagram.com/solarisfunphotobooths/" class="last"
+                                target="_blank"><i class="fa fa-instagram"></i></a></li>
+
+                        <li><a href="#reservations" class="purchase">Book Now!</a></li>
                     </ul>
                 </div>
                 <!--end navbar -->
-                                    
+
             </div>
-    		<!--end container -->
-            
+            <!--end container -->
+
         </nav>
-    	<!--end nav -->
-        
+        <!--end nav -->
+
     </header>
     <!--end header -->
-        
-    <!--begin gallery-hero-section -->
-    <section id="hero-section" class="gallery-hero-section">
-    
-        <!--begin image-overlay -->
-        <div class="image-overlay"></div>
-        <!--end image-overlay -->
-            
+
+
+
+    <!--begin section-grey-->
+    <section id="about" class="section-white">
         <!--begin container-->
-        <div class="container image-section-inside">
-
+        <div class="container">
             <!--begin row-->
             <div class="row">
-            
-                <!--begin col-md-10-->
-                <div class="col-md-10 col-md-offset-1 text-center">
-                
-                    <span class="comic-text white wow fadeIn" data-wow-delay="0.5s">True Passion</span>
-                    
-                    <h2 class="section-title white wow bounceIn" data-wow-delay="1s">Natural Flavours</h2>
-                    
-                    <p class="hero-text wow fadeInUp" data-wow-delay="2s">An unforgettable dining experience in the heart of Covent Garden, London.<br>Contemporary british menu, inspired by the traditions of Great Britain.</p>
-                    
+                <!--begin col-md-6-->
+                <div class="col-md-6 col-md-offset-3 text-center padding-top-60">
+                    <span class="comic-text">The Solaris Photobooth</span>
+                    <h2 class="section-title">Experience</h2>
+                    <p>Take a look at our work below and imagine your own celebration filled with laughter, unforgettable moments, and memories your guests will take home forever.</p>
                 </div>
-                <!--end col-md-10-->
-            
+                <!--end col-md-6-->
             </div>
             <!--end row-->
-            
-        </div>
-        <!--end container-->    
-        
-    </section>
-    <!--end gallery-hero-section -->
-    
-    <!--begin section-white-->
-    <div class="section-white">
-    
-      <!--begin container-->
-      <div class="container"> 
-
-            <!--begin row-->
-            <div class="row">
-    
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-                
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-                
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-               
-            </div>
-            <!--end row-->
-            
-            <!--begin row-->
-            <div class="row">
-    
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-                
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-                
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-               
-            </div>
-            <!--end row-->
-            
-            <!--begin row-->
-            <div class="row">
-    
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-                
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-                
-                <!--begin col-md-4 -->
-                <div class="col-md-4 margin-bottom-30">
-                        
-                    <!--begin popup image -->
-                    <div class="popup-wrapper">
-                        <div class="popup-gallery">
-                            <a class="popup3" href="http://placehold.it/800x530"><img src="http://placehold.it/800x530" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
-                        </div>
-                    </div>
-                    <!--begin popup image -->
-                    
-                </div>
-                <!--end col-md-4-->
-                
-            </div>
-            <!--end row-->
-            
         </div>
         <!--end container-->
-        
+    </section>
+    <!--end section-grey-->
+
+    <div class="row" style="margin-top: -90px; margin-bottom: 50px; padding: 0 50px;">
+        <div class="col-xs-12 col-sm-4" style="padding: 5px;">
+            <iframe allow="web-share" src="https://fotoshare.co/e/Sgl2tfNNG4oOGlGYtN6zC?embed=1" style="width: 200%; height: 1200px; border:0; transform: scale(0.9); zoom: 0.5;" frameborder=0></iframe>
+        </div>
+        <div class="col-xs-12 col-sm-4" style="padding: 5px;">
+            <iframe allow="web-share" src="https://fotoshare.co/u/solarisphotobooth/9138471?embed=1" style="width: 200%; height: 1200px; border:0; transform: scale(0.9); zoom: 0.5;" frameborder=0></iframe>
+        </div>
+        <div class="col-xs-12 col-sm-4" style="padding: 5px;">
+            <iframe allow="web-share" src="https://fotoshare.co/u/solarisphotobooth/7482310?embed=1" style="width: 200%; height: 1200px; border:0; transform: scale(0.9); zoom: 0.5;" frameborder=0></iframe>
+        </div>
     </div>
-    <!--end section-white-->
-    
+
     <!--begin footer -->
     <div class="footer">
-            
+
         <!--begin container -->
         <div class="container">
-        
+
             <!--begin row -->
             <div class="row footer-top">
-            
                 <!--begin col-md-3 -->
                 <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>ABOUT US</h4>
-                    
-                    <p>Quis autem velis et reprehender etims quiste voluptate velit esse quam nihil etsa illum sedit consequatur quias voluptas sit netsum  etis nisle varius qui sequi.</p>
-                    
-                    <a href="about.html" class="btn btn-lg btn-yellow-x-small scrool">OUR STORY</a>
-                    
+                    <h4>ABOUT US</h4>
+                    <p>We are a professional, family oriented, and earth concious business delivering excellent and
+                        equitable experiences with integrity, respect, and accountability.</p>
+                    <a href="#about" class="btn btn-lg btn-yellow-x-small scrool">OUR STORY</a>
                 </div>
                 <!--end col-md-3 -->
-                
+
                 <!--begin col-md-3 -->
                 <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>FEATURED EVENTS</h4>
-                    
-                    <ul class="instagram">
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-					</ul>
-                    
+                    <h4>CONTACT DETAILS</h4>
+                    <p>Get in touch!</p>
+                    <p class="contact_info"><i class="fa fa-map-marker"></i> Contra Costa County California / The East
+                        Bay</p>
+                    <p class="contact_info"><i class="fa fa-phone"></i> <a href="tel:925-261-6031">925-261-6031</a></p>
+                    <p class="contact_info"><i class="fa fa-envelope-square"></i> <a href="#reservations">Send a
+                            message</a></p>
                 </div>
                 <!--end col-md-3 -->
-                
+
                 <!--begin col-md-3 -->
                 <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>CONTACT DETAILS</h4>
-                    
-                    <p>Quis autem velis et reprehender etims quiste voluptate velit esse quam nihil etsa illum sedit nisle quias.</p>
-                    
-                    <p class="contact_info"><i class="fa fa-map-marker"></i> No.239, Oxford Street, London, UK, N1 1ED</p>
-                    
-                    <p class="contact_info"><i class="fa fa-phone"></i> +44 987 654 321 / +44 123 456 789</p>
-                
-                    <p class="contact_info"><i class="fa fa-envelope-square"></i> <a href="mailto:contact@restaurant.com">contact@restaurant.com</a></p>
-                    
+                    <h4>QUICK LINKS</h4>
+                    <ul class="footer_links">
+                        <li><a href="#about" class="scrool">About Us</a></li>
+                        <li><a href="#discover" class="scrool">Services</a></li>
+                        <li><a href="#packages" class="scrool">Packages</a></li>
+                        <li><a href="#reservations" class="scrool">Reservations</a></li>
+                    </ul>
                 </div>
                 <!--end col-md-3 -->
-                
+
             </div>
             <!--end row -->
-            
+
             <!--begin row -->
             <div class="row">
-                
+
                 <!--begin footer-bottom -->
                 <div class="footer-bottom">
-                
+
                     <!--begin col-md-5 -->
                     <div class="col-md-5">
-                        
+
                         <!--begin copyright -->
                         <div class="copyright ">
-                            <p>© 2016 Fable. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
-                            
+                            <p>© <span id="current-year">2016</span> Solaris Fun Photo Booth, Solaris Digital Media LLC</p>
+
                         </div>
                         <!--end copyright -->
-                       
+
                     </div>
                     <!--end col-md-5 -->
-                    
+
                     <!--begin col-md-2 -->
                     <div class="col-md-2 text-center">
-                    
-                    	<a href="#hero-section" class="scrool top-scroll"><i class="fa fa-angle-double-up"></i></a>
-                        
+
+                        <a href="#hero-section" class="scrool top-scroll"><i class="fa fa-angle-double-up"></i></a>
+
                     </div>
                     <!--end col-md-2 -->
-                    
+
                     <!--begin col-md-5 -->
                     <div class="col-md-5">
-                                                        
+
                         <!--begin footer_social -->
                         <ul class="footer_social">
                             <li>
                                 Follow Us:
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#">
                                     <i class="fa fa-twitter"></i>
                                 </a>
@@ -430,40 +237,40 @@
                                 <a href="#">
                                     <i class="fa fa-pinterest"></i>
                                 </a>
-                            </li>
+                            </li> 
                             <li>
                                 <a href="#">
                                     <i class="fa fa-facebook"></i>
                                 </a>
-                            </li>
+                            </li>-->
                             <li>
-                                <a href="#">
+                                <a href="https://www.instagram.com/solarisfunphotobooths/" target="_blank">
                                     <i class="fa fa-instagram"></i>
                                 </a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#">
                                     <i class="fa fa-youtube"></i>
                                 </a>
-                            </li>
+                            </li> -->
                         </ul>
                         <!--end footer_social -->
-                        
+
                     </div>
                     <!--end col-md-5 -->
-                        
+
                 </div>
                 <!--end footer-bottom -->
-                        
+
             </div>
             <!--end row -->
-            
+
         </div>
         <!--end container -->
-                
+
     </div>
     <!--end footer -->
-    
+
 
     <!-- Load JS here for greater good =============================-->
     <script src="js/jquery-1.12.4.min.js"></script>
@@ -475,9 +282,28 @@
     <script src="js/jquery.scrollTo-min.js"></script>
     <script src="js/SmoothScroll.js"></script>
     <script src="js/wow.js"></script>
-    
+    <script src="js/instafeed.js"></script>
+    <script src="js/instagram.js"></script>
+
+    <!-- RS5.0 Core JS Files -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+
     <!-- begin custom script-->
     <script src="js/custom.js"></script>
     <script src="js/plugins.js"></script>
-    
-</body></html>
+
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
